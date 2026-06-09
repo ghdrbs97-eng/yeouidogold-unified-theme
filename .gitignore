@@ -1,0 +1,15 @@
+# Python/runtime cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local SQLite runtime state and generated backups
+data/*.sqlite3
+backups/*.sqlite3
+
+# Generated archives
+*.zip
+
+# Local environment/secrets
+.env
+*.env

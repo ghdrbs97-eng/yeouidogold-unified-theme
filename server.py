@@ -239,6 +239,16 @@ class Handler(SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(data)
 
+    def send_text(self, status: int, text: str, content_type: str = "text/html; charset=utf-8"):
+        data = text.encode("utf-8")
+        self.send_response(status)
+        self.send_header("Content-Type", content_type)
+        self.send_header("Content-Length", str(len(data)))
+        self.send_header("Cache-Control", "no-store")
+        self.security_headers(); self._security_headers_sent = True
+        self.end_headers()
+        self.wfile.write(data)
+
     def require_user(self):
         user = current_user(self)
         if not user:
@@ -255,13 +265,64 @@ class Handler(SimpleHTTPRequestHandler):
             return None
         return user
 
+    def cm_expects_html(self, path: str) -> bool:
+        html_markers = (
+            "prod_review_",
+            "prod_qna_",
+            "prod_photo_review_",
+            "prod_review_summary_html",
+            "get_board_list",
+            "ajax/list",
+            "booking/prod_review",
+        )
+        return any(marker in path for marker in html_markers)
+
+    def send_cm_success(self, path: str):
+        if self.cm_expects_html(path):
+            return self.send_text(200, "")
+        return self.send_json(200, self.cm_success_payload(path))
+
+    def cm_success_payload(self, path: str):
+        # Imweb's original front-end code checks `res.msg == 'SUCCESS'` for many
+        # .cm AJAX endpoints.  Returning only {ok:true,message:""} makes those
+        # handlers enter their error branch and call alert(res.msg), which renders
+        # as an "undefined" popup on product detail pages.
+        payload = {
+            "ok": True,
+            "msg": "SUCCESS",
+            "message": "SUCCESS",
+            "html": "",
+            "items": [],
+        }
+        if "load_option" in path:
+            payload.update({
+                "option_html": "",
+                "max_prod_quantity": 0,
+                "max_member_quantity": 0,
+                "maximum_purchase_quantity_type": "",
+                "optional_limit": 0,
+                "optional_limit_type": "",
+                "require_option_count": 0,
+                "require_input_option_count": 0,
+            })
+        if "load_prod_additional" in path:
+            payload.update({
+                "prod_additional": {"prod_list": [], "html": ""},
+                "prod_additional_sheet_contents": "",
+                "require_option_count": {},
+                "require_input_option_count": {},
+            })
+        if path == "/ajax/oms/OMS_auth.cm":
+            payload["token"] = ""
+        return payload
+
     def do_GET(self):
         parsed = urlparse(self.path)
         path = parsed.path
         if path.startswith("/api/"):
             return self.route_api("GET", path)
         if path.endswith(".cm"):
-            return self.send_json(200, {"ok": True, "html": "", "items": [], "message": ""})
+            return self.send_cm_success(path)
 
         # Canonicalize mirrored Imweb filter/sort/page URLs before serving HTML.
         # Without this, /allgold/?sort=... may render allgold.html but relative
@@ -299,19 +360,19 @@ class Handler(SimpleHTTPRequestHandler):
     def do_POST(self):
         path = urlparse(self.path).path
         if path.endswith(".cm"):
-            return self.send_json(200, {"ok": True, "html": "", "items": [], "message": ""})
+            return self.send_cm_success(path)
         return self.route_api("POST", path)
 
     def do_PUT(self):
         path = urlparse(self.path).path
         if path.endswith(".cm"):
-            return self.send_json(200, {"ok": True, "html": "", "items": [], "message": ""})
+            return self.send_cm_success(path)
         return self.route_api("PUT", path)
 
     def do_DELETE(self):
         path = urlparse(self.path).path
         if path.endswith(".cm"):
-            return self.send_json(200, {"ok": True, "html": "", "items": [], "message": ""})
+            return self.send_cm_success(path)
         return self.route_api("DELETE", path)
 
     def serve_static(self, path: str):
