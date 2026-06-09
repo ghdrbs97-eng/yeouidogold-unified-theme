@@ -1,6 +1,15 @@
 (function(){
 'use strict';
 if(window.__ygOriginalUi) return; window.__ygOriginalUi=true;
+(function(){
+  var nativeAlert=window.alert;
+  window.alert=function(message){
+    if(message===undefined || message===null) return;
+    var text=String(message).trim();
+    if(!text || text.toLowerCase()==='undefined' || text.toLowerCase()==='null') return;
+    return nativeAlert.call(window,message);
+  };
+})();
 var fmt=new Intl.NumberFormat('ko-KR');
 var state={user:null,cart:[],settings:{noticeTitle:'공지사항',noticeDesc:'배송·입고·가격 변동 등 운영 업데이트를 확인하세요.',faqTitle:'FAQ · 품질/교환',faqDesc:'스팟·톤·스크래치/캡슐 손상 기준을 한 번에 안내합니다.',siteNotice:''}};
 function $(s,r){return (r||document).querySelector(s)}

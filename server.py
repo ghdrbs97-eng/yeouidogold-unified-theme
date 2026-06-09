@@ -386,6 +386,10 @@ class Handler(SimpleHTTPRequestHandler):
 
         if path == "/":
             self.path = "/index.html"
+        elif clean.rstrip("/") == "shop_view":
+            # /shop_view/ is a mirrored product-detail directory, not a browsable
+            # listing.  Send users to an actual product list instead of a 404.
+            self.path = "/allgold.html"
         elif clean.endswith(".html/") and (site_dir / clean.rstrip("/")).exists():
             self.path = "/" + clean.rstrip("/")
         elif target.is_dir():
