@@ -246,3 +246,290 @@ td{border-color:rgba(25,25,25,.10)!important;}
 .shop-item [style*="background: #fee500"]{
   background-color:transparent!important;
 }
+
+/*
+  2026-06 naturalization pass
+  - 기능/레이아웃 보존: display/position/width/height/margin/padding/grid/flex/order 미변경
+  - 카카오톡 느낌은 색상·상태·테두리·그림자·텍스트 대비만으로 구현
+*/
+:root{
+  --kt-yellow-deep:#f6d900;
+  --kt-yellow-wash:#fff8cf;
+  --kt-yellow-mist:#fffdf2;
+  --kt-chat-blue:#b8c9d8;
+  --kt-chat-line:#e8dfb8;
+  --kt-charcoal:#2f201c;
+  --kt-footer-natural:#201817;
+}
+
+/* 전체 톤: 쇼핑몰의 흰 여백은 살리고, 선택·강조 영역만 카톡 노랑으로 정리 */
+body[data-yg-theme="kakao"] main,
+body[data-yg-theme="kakao"] .section_wrap,
+body[data-yg-theme="kakao"] .inside,
+body[data-yg-theme="kakao"] .doz_row{
+  color:var(--kt-ink)!important;
+}
+body[data-yg-theme="kakao"] ::selection{
+  background:var(--kt-yellow)!important;
+  color:var(--kt-brown)!important;
+}
+body[data-yg-theme="kakao"] a:focus,
+body[data-yg-theme="kakao"] button:focus,
+body[data-yg-theme="kakao"] select:focus,
+body[data-yg-theme="kakao"] input:focus,
+body[data-yg-theme="kakao"] textarea:focus{
+  outline-color:rgba(254,229,0,.72)!important;
+  box-shadow:0 0 0 2px rgba(254,229,0,.22)!important;
+}
+
+/* 헤더: 카톡 노랑을 넓게 칠하지 않고 얇은 활성/hover 신호로만 사용 */
+body[data-yg-theme="kakao"] #doz_header_wrap{
+  border-top-color:var(--kt-yellow)!important;
+  border-bottom-color:rgba(60,30,30,.10)!important;
+  box-shadow:0 1px 8px rgba(60,30,30,.055)!important;
+}
+body[data-yg-theme="kakao"] #doz_header .viewport-nav>li>a,
+body[data-yg-theme="kakao"] #doz_header .login_btn a,
+body[data-yg-theme="kakao"] #doz_header_wrap a{
+  color:#191919!important;
+  -webkit-text-fill-color:#191919!important;
+}
+body[data-yg-theme="kakao"] #doz_header .viewport-nav>li>a:hover,
+body[data-yg-theme="kakao"] #doz_header .login_btn a:hover,
+body[data-yg-theme="kakao"] #doz_header_wrap a:hover{
+  background-color:rgba(254,229,0,.18)!important;
+  color:var(--kt-brown)!important;
+  -webkit-text-fill-color:var(--kt-brown)!important;
+}
+body[data-yg-theme="kakao"] #doz_header .viewport-nav>li.active>a,
+body[data-yg-theme="kakao"] #doz_header .viewport-nav>li>a.active{
+  background-color:rgba(254,229,0,.34)!important;
+  color:var(--kt-brown)!important;
+  -webkit-text-fill-color:var(--kt-brown)!important;
+}
+
+/* 상품/게시판/카드: 노란 배경 남발 없이 실제 카톡 앱 같은 부드러운 표면감 */
+body[data-yg-theme="kakao"] .shop-item,
+body[data-yg-theme="kakao"] .shop-item._shop_item,
+body[data-yg-theme="kakao"] .list-style-card,
+body[data-yg-theme="kakao"] .yg-search-item,
+body[data-yg-theme="kakao"] .yg-cart-row,
+body[data-yg-theme="kakao"] .yg-login-card,
+body[data-yg-theme="kakao"] .yg-join-card,
+body[data-yg-theme="kakao"] .yg-cart-summary,
+body[data-yg-theme="kakao"] .yg-admin-card,
+body[data-yg-theme="kakao"] .yg-tile{
+  background-color:#ffffff!important;
+  border-color:rgba(60,30,30,.10)!important;
+  box-shadow:none!important;
+}
+body[data-yg-theme="kakao"] .shop-item:hover,
+body[data-yg-theme="kakao"] .list-style-card:hover,
+body[data-yg-theme="kakao"] .yg-search-item:hover,
+body[data-yg-theme="kakao"] .yg-tile:hover{
+  border-color:rgba(254,229,0,.62)!important;
+  box-shadow:0 5px 18px rgba(60,30,30,.075)!important;
+}
+body[data-yg-theme="kakao"] .sale_percentage,
+body[data-yg-theme="kakao"] .addon-badge,
+body[data-yg-theme="kakao"] .badge,
+body[data-yg-theme="kakao"] .badge_wrap sup,
+body[data-yg-theme="kakao"] [class*="sale_percentage"],
+body[data-yg-theme="kakao"] [class*="sale-percent"]{
+  background-color:var(--kt-yellow)!important;
+  color:#111111!important;
+  border-color:rgba(60,30,30,.16)!important;
+  text-shadow:none!important;
+}
+body[data-yg-theme="kakao"] .shop-item .pay,
+body[data-yg-theme="kakao"] .item-pay-detail .pay,
+body[data-yg-theme="kakao"] .yg-search-sale-price,
+body[data-yg-theme="kakao"] .yg-cart-price strong{
+  color:#111111!important;
+}
+body[data-yg-theme="kakao"] .shop-item del,
+body[data-yg-theme="kakao"] .item-pay-detail del,
+body[data-yg-theme="kakao"] del{
+  color:#9b9891!important;
+}
+
+/* CTA: 카톡에서 자연스러운 노랑/브라운 조합. 버튼 크기와 배치는 그대로 둠 */
+body[data-yg-theme="kakao"] .btn.right,
+body[data-yg-theme="kakao"] .btn-primary,
+body[data-yg-theme="kakao"] .btn-brand,
+body[data-yg-theme="kakao"] .shop-content .btn.buy,
+body[data-yg-theme="kakao"] .shop-content .btn._btn_buy,
+body[data-yg-theme="kakao"] .yg-cart-modal-move,
+body[data-yg-theme="kakao"] .yg-cart-order,
+body[data-yg-theme="kakao"] .yg-admin-card button[type="submit"],
+body[data-yg-theme="kakao"] .yg-login-page button[type="submit"]{
+  background-color:var(--kt-yellow)!important;
+  color:var(--kt-brown)!important;
+  -webkit-text-fill-color:var(--kt-brown)!important;
+  border-color:var(--kt-yellow-deep)!important;
+  box-shadow:inset 0 -1px 0 rgba(60,30,30,.08)!important;
+}
+body[data-yg-theme="kakao"] .btn.right:hover,
+body[data-yg-theme="kakao"] .btn-primary:hover,
+body[data-yg-theme="kakao"] .btn-brand:hover,
+body[data-yg-theme="kakao"] .shop-content .btn.buy:hover,
+body[data-yg-theme="kakao"] .shop-content .btn._btn_buy:hover,
+body[data-yg-theme="kakao"] .yg-cart-modal-move:hover,
+body[data-yg-theme="kakao"] .yg-cart-order:hover{
+  background-color:var(--kt-yellow-deep)!important;
+  color:var(--kt-brown)!important;
+  -webkit-text-fill-color:var(--kt-brown)!important;
+}
+body[data-yg-theme="kakao"] .shop-content ._btn_cart,
+body[data-yg-theme="kakao"] .shop-content .btn._btn_cart,
+body[data-yg-theme="kakao"] .yg-cart-continue{
+  background-color:var(--kt-brown)!important;
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  border-color:var(--kt-brown)!important;
+}
+body[data-yg-theme="kakao"] .shop-content ._btn_cart:hover,
+body[data-yg-theme="kakao"] .shop-content .btn._btn_cart:hover,
+body[data-yg-theme="kakao"] .yg-cart-continue:hover{
+  background-color:var(--kt-charcoal)!important;
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+}
+body[data-yg-theme="kakao"] button,
+body[data-yg-theme="kakao"] .btn,
+body[data-yg-theme="kakao"] input[type="button"],
+body[data-yg-theme="kakao"] input[type="submit"]{
+  border-color:rgba(60,30,30,.16)!important;
+}
+
+/* 공지 모달/장바구니 모달: 카카오 안내창처럼 부드럽게. 배치/크기는 원본 유지 */
+body[data-yg-theme="kakao"] .modal-content,
+body[data-yg-theme="kakao"] .modal_site_alert .modal-content,
+body[data-yg-theme="kakao"] #shop_detail_add_cart_alarm .modal-content{
+  background-color:#ffffff!important;
+  border-color:rgba(60,30,30,.18)!important;
+  border-top-color:var(--kt-yellow)!important;
+  box-shadow:0 14px 36px rgba(0,0,0,.16)!important;
+}
+body[data-yg-theme="kakao"] .modal-content h1,
+body[data-yg-theme="kakao"] .modal-content h2,
+body[data-yg-theme="kakao"] .modal-content h3,
+body[data-yg-theme="kakao"] .modal-content strong{
+  color:#111111!important;
+}
+body[data-yg-theme="kakao"] .modal-content .btn,
+body[data-yg-theme="kakao"] .modal-footer .btn{
+  background-color:#ffffff!important;
+  color:var(--kt-ink)!important;
+  -webkit-text-fill-color:var(--kt-ink)!important;
+  border-color:rgba(60,30,30,.16)!important;
+}
+body[data-yg-theme="kakao"] .modal-content .btn.right,
+body[data-yg-theme="kakao"] .modal-footer .btn.right,
+body[data-yg-theme="kakao"] .modal-content button[type="submit"]{
+  background-color:var(--kt-yellow)!important;
+  color:var(--kt-brown)!important;
+  -webkit-text-fill-color:var(--kt-brown)!important;
+  border-color:var(--kt-yellow-deep)!important;
+}
+body[data-yg-theme="kakao"] input[type="checkbox"]{
+  accent-color:var(--kt-yellow)!important;
+}
+
+/* 상세정보 안내 박스/FAQ 칩: 카톡 대화 말풍선에서 가져온 아주 옅은 노랑 */
+body[data-yg-theme="kakao"] .fr-view blockquote,
+body[data-yg-theme="kakao"] .fr-view table,
+body[data-yg-theme="kakao"] .yg-origin-main .yg-tile,
+body[data-yg-theme="kakao"] .yg-admin-site-notice,
+body[data-yg-theme="kakao"] .yg-cart-summary,
+body[data-yg-theme="kakao"] .acd_row,
+body[data-yg-theme="kakao"] .acd_item{
+  background-color:var(--kt-yellow-mist)!important;
+  border-color:var(--kt-chat-line)!important;
+}
+body[data-yg-theme="kakao"] .nav-tabs>li.active>a,
+body[data-yg-theme="kakao"] .nav-pills>li.active>a,
+body[data-yg-theme="kakao"] .pagination>.active>a,
+body[data-yg-theme="kakao"] .pagination>.active>span{
+  background-color:var(--kt-yellow)!important;
+  color:var(--kt-brown)!important;
+  -webkit-text-fill-color:var(--kt-brown)!important;
+  border-color:var(--kt-yellow-deep)!important;
+}
+body[data-yg-theme="kakao"] .pagination>li>a:hover,
+body[data-yg-theme="kakao"] .nav-tabs>li>a:hover,
+body[data-yg-theme="kakao"] .nav-pills>li>a:hover{
+  background-color:var(--kt-yellow-wash)!important;
+  color:var(--kt-brown)!important;
+  -webkit-text-fill-color:var(--kt-brown)!important;
+}
+
+/* 문의 플로팅/하단바: 카톡 상담 버튼처럼 보이되 위치와 크기는 유지 */
+body[data-yg-theme="kakao"] .w-actionbar,
+body[data-yg-theme="kakao"] .w-bottom-nav,
+body[data-yg-theme="kakao"] .yg-admin-float{
+  background-color:#ffffff!important;
+  border-color:rgba(60,30,30,.13)!important;
+  box-shadow:0 -2px 12px rgba(60,30,30,.065)!important;
+}
+body[data-yg-theme="kakao"] .w-actionbar button,
+body[data-yg-theme="kakao"] .w-actionbar a,
+body[data-yg-theme="kakao"] a[href*="channel"],
+body[data-yg-theme="kakao"] a[href*="kakao"],
+body[data-yg-theme="kakao"] .channel-btn,
+body[data-yg-theme="kakao"] .kakao-channel{
+  color:var(--kt-brown)!important;
+  -webkit-text-fill-color:var(--kt-brown)!important;
+}
+
+/* 로그인 소셜 버튼: 진짜 카카오 로그인 느낌 */
+body[data-yg-theme="kakao"] .yg-social.yg-kakao,
+body[data-yg-theme="kakao"] .btn.btn-kakao,
+body[data-yg-theme="kakao"] [class*="kakao"] .btn{
+  background-color:var(--kt-yellow)!important;
+  color:var(--kt-brown)!important;
+  -webkit-text-fill-color:var(--kt-brown)!important;
+  border-color:var(--kt-yellow-deep)!important;
+}
+body[data-yg-theme="kakao"] .yg-kakao-dot{
+  color:var(--kt-brown)!important;
+}
+
+/* 푸터: 기존 남색을 카카오 브라운 블랙으로 정리 */
+body[data-yg-theme="kakao"] #doz_footer_wrap,
+body[data-yg-theme="kakao"] #doz_footer,
+body[data-yg-theme="kakao"] #doz_footer .footer-section,
+body[data-yg-theme="kakao"] footer,
+body[data-yg-theme="kakao"] footer .footer-section{
+  background-color:var(--kt-footer-natural)!important;
+  color:#f7f3ef!important;
+}
+body[data-yg-theme="kakao"] #doz_footer a,
+body[data-yg-theme="kakao"] #doz_footer span,
+body[data-yg-theme="kakao"] #doz_footer div,
+body[data-yg-theme="kakao"] footer a,
+body[data-yg-theme="kakao"] footer span,
+body[data-yg-theme="kakao"] footer div{
+  color:#f7f3ef!important;
+  -webkit-text-fill-color:#f7f3ef!important;
+}
+body[data-yg-theme="kakao"] #doz_footer .active,
+body[data-yg-theme="kakao"] #doz_footer i,
+body[data-yg-theme="kakao"] footer .active,
+body[data-yg-theme="kakao"] footer i{
+  color:var(--kt-yellow)!important;
+  -webkit-text-fill-color:var(--kt-yellow)!important;
+}
+
+/* 테마 전환기 자체도 너무 개발자 도구처럼 보이지 않게 톤만 정리 */
+body[data-yg-theme="kakao"] #yg-theme-switcher{
+  background:rgba(255,255,255,.96)!important;
+  border-color:rgba(60,30,30,.14)!important;
+  box-shadow:0 6px 18px rgba(60,30,30,.10)!important;
+}
+body[data-yg-theme="kakao"] #yg-theme-switcher label{
+  color:var(--kt-brown)!important;
+}
+body[data-yg-theme="kakao"] #yg-theme-switcher select{
+  color:var(--kt-brown)!important;
+}
