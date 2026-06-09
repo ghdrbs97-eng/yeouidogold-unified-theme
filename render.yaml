@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: yeouidogold-unified-theme
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: YG_HOST
+        value: 0.0.0.0
+      - key: YG_DB_PATH
+        value: /app/data/yeouidogold.sqlite3

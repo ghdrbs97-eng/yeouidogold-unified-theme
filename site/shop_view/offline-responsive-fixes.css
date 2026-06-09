@@ -1,0 +1,45 @@
+/* Offline mirror responsive parity fixes */
+html,body{max-width:100%;overflow-x:hidden;}
+*{box-sizing:border-box;}
+.owl-carousel,.owl-stage-outer,.item_detail,.section_wrap{max-width:100%;}
+.owl-stage-outer{overflow:hidden!important;}
+@media (max-width: 991px){
+  html,body{width:100%;overflow-x:hidden!important;}
+  .doz_row{max-width:100%;}
+  /* Product/list columns in the origin may be slightly wider than the viewport
+     and are clipped by body overflow-x:hidden. Do not cap .col-dz/.col-xdz;
+     otherwise mobile product cards shrink and wrap differently. */
+  /* Do not cap product grids: the origin intentionally lets the 3-column
+     mobile grid extend to 375px inside a 360px content column using -7.5px
+     gutters. A previous max-width cap shrank products to 112px and broke
+     mobile parity. */
+  .shop-item{min-width:0;}
+  header .nav-item{max-width:100vw;}
+  header a[href*="hotdeal"]::after,
+  .nav-item a[href*="hotdeal"]::after,
+  a[data-url="hotdeal"]::after{
+    content:""!important;display:inline-block!important;width:4px!important;height:4px!important;
+    margin-left:2px!important;border-radius:50%!important;background:#fa5500!important;
+    vertical-align:baseline!important;position:static!important;
+  }
+  /* Match Imweb mobile product-grid gutters. The origin's 3-column grids are
+     wider than their content column: 375px at a 390px viewport, with 125px
+     cards. Without this, mirrored columns collapse to 117/109px and text wraps
+     differently. */
+  .thumb-row.m-thumb-item-3:not(.mobile_slide),
+  .thumb-row.thumb-item-4.extend_count{
+    width:calc(100vw - 15px)!important;
+    max-width:none!important;
+    grid-template-columns:repeat(3, calc((100vw - 15px)/3))!important;
+  }
+  .thumb-row.m-thumb-item-3:not(.mobile_slide) > .shop-item,
+  .thumb-row.m-thumb-item-3:not(.mobile_slide) > .item-wrap,
+  .thumb-row.thumb-item-4.extend_count > .shop-item,
+  .thumb-row.thumb-item-4.extend_count > .item-wrap{
+    width:calc((100vw - 15px)/3)!important;
+    max-width:none!important;
+  }
+}
+
+/* Product carousel/static mirror overflow correction */
+@media (max-width: 991px){.owl-stage{max-width:100%!important;width:100%!important;transform:none!important}.owl-item{max-width:100%!important}.owl-item:not(:first-child){display:none!important}.shop_view .thumb-row,.prod_detail .thumb-row{margin-left:0!important;margin-right:0!important}}

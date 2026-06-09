@@ -1,0 +1,108 @@
+@font-face {
+	font-family: 'Inter';
+	src: url('https://vendor-cdn.imweb.me/fonts/Inter-Thin.eot');
+	src: url('https://vendor-cdn.imweb.me/fonts/Inter-Thin.eot?') format('embedded-opentype'),
+	url('https://vendor-cdn.imweb.me/fonts/Inter-Thin.woff2') format('woff2'),
+	url('https://vendor-cdn.imweb.me/fonts/Inter-Thin.woff') format('woff'),
+	url('https://vendor-cdn.imweb.me/fonts/Inter-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('../offline_external/3cb91893b038.eot');
+	src: url('../offline_external/3cb91893b038.eot?') format('embedded-opentype'),
+	url('../offline_external/12895b4ce1d2.woff2') format('woff2'),
+	url('../offline_external/966b76b0887b.woff') format('woff'),
+	url('../offline_external/525ab0571838.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('../offline_external/d6670be2fe72.eot');
+	src: url('../offline_external/d6670be2fe72.eot?') format('embedded-opentype'),
+	url('../offline_external/bddec95e7914.woff2') format('woff2'),
+	url('../offline_external/a962f4118208.woff') format('woff'),
+	url('../offline_external/65d6db2a8b18.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('https://vendor-cdn.imweb.me/fonts/Inter-Medium.eot');
+	src: url('https://vendor-cdn.imweb.me/fonts/Inter-Medium.eot?') format('embedded-opentype'),
+	url('https://vendor-cdn.imweb.me/fonts/Inter-Medium.woff2') format('woff2'),
+	url('https://vendor-cdn.imweb.me/fonts/Inter-Medium.woff') format('woff'),
+	url('https://vendor-cdn.imweb.me/fonts/Inter-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('https://vendor-cdn.imweb.me/fonts/Inter-Light.eot');
+	src: url('https://vendor-cdn.imweb.me/fonts/Inter-Light.eot?') format('embedded-opentype'),
+	url('https://vendor-cdn.imweb.me/fonts/Inter-Light.woff2') format('woff2'),
+	url('https://vendor-cdn.imweb.me/fonts/Inter-Light.woff') format('woff'),
+	url('https://vendor-cdn.imweb.me/fonts/Inter-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('../offline_external/08f50b2dbe4d.eot');
+	src: url('../offline_external/08f50b2dbe4d.eot?') format('embedded-opentype'),
+	url('../offline_external/54e0d173233b.woff2') format('woff2'),
+	url('../offline_external/aa9dcbd91a79.woff') format('woff'),
+	url('../offline_external/a56bfb246a3f.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('https://vendor-cdn.imweb.me/fonts/Inter-Black.eot');
+	src: url('https://vendor-cdn.imweb.me/fonts/Inter-Black.eot?') format('embedded-opentype'),
+	url('https://vendor-cdn.imweb.me/fonts/Inter-Black.woff2') format('woff2'),
+	url('https://vendor-cdn.imweb.me/fonts/Inter-Black.woff') format('woff'),
+	url('https://vendor-cdn.imweb.me/fonts/Inter-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('https://vendor-cdn.imweb.me/fonts/Inter-ExtraLight.eot');
+	src: url('https://vendor-cdn.imweb.me/fonts/Inter-ExtraLight.eot?') format('embedded-opentype'),
+	url('https://vendor-cdn.imweb.me/fonts/Inter-ExtraLight.woff2') format('woff2'),
+	url('https://vendor-cdn.imweb.me/fonts/Inter-ExtraLight.woff') format('woff'),
+	url('https://vendor-cdn.imweb.me/fonts/Inter-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('../offline_external/3f9bcfa0f543.eot');
+	src: url('../offline_external/3f9bcfa0f543.eot?') format('embedded-opentype'),
+	url('../offline_external/1d5364d5ebdb.woff2') format('woff2'),
+	url('../offline_external/e8b1ee6a6a77.woff') format('woff'),
+	url('../offline_external/1fc00ef2ef29.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+

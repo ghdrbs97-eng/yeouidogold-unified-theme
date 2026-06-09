@@ -1,0 +1,248 @@
+/*
+  Refined KakaoTalk tone overlay for Yeouido Gold.
+  Tone-only skin: no layout, spacing, grid, sizing, positioning, or image changes.
+  Goal: clean Kakao-inspired commerce UI, not a yellow color wash.
+*/
+:root{
+  --kt-yellow:#fee500;
+  --kt-yellow-soft:#fff7bf;
+  --kt-brown:#3c1e1e;
+  --kt-ink:#191919;
+  --kt-muted:#77736b;
+  --kt-line:#eee6c8;
+  --kt-surface:#ffffff;
+  --kt-surface-soft:#fffdf4;
+  --kt-footer:#171717;
+}
+
+/* Base: keep the site mostly white and premium. */
+html,body{
+  background-color:#ffffff!important;
+  color:var(--kt-ink)!important;
+}
+a{color:inherit;}
+a:hover{color:var(--kt-brown)!important;}
+main::before{content:none!important;display:none!important;}
+.logo img,.logo .img_box img,#doz_footer img,
+.shop-item img,.card img,.yg-search-thumb img{
+  filter:none!important;
+  mix-blend-mode:normal!important;
+}
+
+/* Header: crisp white commerce header with one Kakao accent line. */
+#doz_header_wrap,
+#doz_header,
+#doz_header .new_org_header,
+#doz_header #inline_header_normal,
+#doz_header .inline-section-wrap,
+#doz_header .inline-inside,
+#doz_header .inline-row,
+#doz_header .inline-col,
+#doz_header .widget,
+#doz_header ._widget_data,
+#doz_header .btn-wrap,
+#doz_header .login_btn,
+#doz_header .viewport-nav,
+#doz_header .navbar-nav,
+#doz_header [class*="inline-section"],
+#doz_header [class*="new_org_header"],
+header,.doz_sys .navbar{
+  background:#ffffff!important;
+  background-color:#ffffff!important;
+  color:var(--kt-ink)!important;
+}
+#doz_header_wrap{
+  border-top-color:var(--kt-yellow)!important;
+  border-bottom-color:rgba(25,25,25,.08)!important;
+  box-shadow:0 2px 10px rgba(0,0,0,.045)!important;
+}
+#doz_header a,#doz_header span,#doz_header i,#doz_header .text,#doz_header .icon_class,
+#doz_header_wrap a,header a,.viewport-nav>li>a,.viewport-nav a{
+  color:var(--kt-ink)!important;
+  -webkit-text-fill-color:var(--kt-ink)!important;
+  text-shadow:none!important;
+}
+#doz_header .dropdown-toggle:hover,
+#doz_header .viewport-nav>li>a:hover,
+#doz_header .login_btn a:hover,
+.viewport-nav>li>a:hover{
+  background-color:rgba(254,229,0,.16)!important;
+  color:var(--kt-brown)!important;
+  -webkit-text-fill-color:var(--kt-brown)!important;
+}
+#doz_header .viewport-nav>li.active>a,
+#doz_header .viewport-nav>li>a.active{
+  background-color:var(--kt-yellow)!important;
+  color:var(--kt-brown)!important;
+  -webkit-text-fill-color:var(--kt-brown)!important;
+}
+#doz_header a.btn_custom,
+#doz_header a.btn_custom.btn_text,
+#doz_header .btn_custom,
+#doz_header .btn_custom .text,
+#doz_header .login_btn a.btn_custom,
+#doz_header .login_btn a.btn_custom .text{
+  background-color:#ffffff!important;
+  color:var(--kt-ink)!important;
+  -webkit-text-fill-color:var(--kt-ink)!important;
+  border-color:rgba(25,25,25,.12)!important;
+  box-shadow:none!important;
+  opacity:1!important;
+}
+#doz_header a.btn_custom.btn_text:hover,
+#doz_header .login_btn a.btn_custom:hover,
+#doz_header .login_btn a.btn_custom:hover .text{
+  background-color:var(--kt-yellow)!important;
+  color:var(--kt-brown)!important;
+  -webkit-text-fill-color:var(--kt-brown)!important;
+}
+
+/* Surfaces: remove the previous heavy yellow/cream wash. */
+main,.section_wrap{
+  background:transparent!important;
+  background-color:transparent!important;
+}
+.shop-item,.shop-item._shop_item,.list-style-card,.ma-item,.card,
+.yg-search-item,.yg-cart-row,.yg-admin-card,.yg-tile,
+.yg-login-card,.yg-join-card,.yg-cart-summary,.yg-admin-hero,.yg-admin-stats>div,
+.modal-content,.yg-search-modal .modal-content{
+  background-color:var(--kt-surface)!important;
+  border-color:rgba(25,25,25,.10)!important;
+  box-shadow:none!important;
+}
+.shop-item:hover,.list-style-card:hover,.yg-search-item:hover,.yg-tile:hover{
+  border-color:rgba(60,30,30,.22)!important;
+  box-shadow:0 4px 12px rgba(0,0,0,.055)!important;
+}
+.shop-item .item-thumbs,.card-thumbnail-wrap,.yg-search-thumb,.yg-cart-thumb{
+  background-color:transparent!important;
+}
+
+/* Typography/pricing: keep ecommerce readability. */
+.item-detail,.item-pay-detail,.card-body,.card-summary,.yg-cart-desc,
+h1,h2,h3,h4,.title,.title-block,.shop-item h2,.yg-cart-name{
+  color:var(--kt-ink)!important;
+}
+.text-brand,.pay,.sale_pay,.shop-item .pay,.item-pay-detail .pay,
+.yg-search-sale-price,.yg-cart-price strong{
+  color:#111111!important;
+  background-color:transparent!important;
+  border-color:transparent!important;
+  box-shadow:none!important;
+}
+.item-pay-detail del,del,.shop-item del{
+  color:#9a9a9a!important;
+  text-decoration-color:#c8c8c8!important;
+}
+
+/* Kakao as accent only: discount percent, selected states, primary actions. */
+.sale_percentage,.addon-badge,.badge,.badge_wrap sup,
+[class*="sale_percentage"],[class*="sale-percent"]{
+  background-color:var(--kt-yellow)!important;
+  color:var(--kt-brown)!important;
+  border-color:rgba(60,30,30,.14)!important;
+  box-shadow:none!important;
+}
+p.special-sale-wrap,
+.no-margin.special-sale-wrap,
+.shop-item p.special-sale-wrap,
+.item-pay-detail p.special-sale-wrap,
+p.special-sale-wrap .pay,
+.no-margin.special-sale-wrap .pay,
+.shop-item p.special-sale-wrap .pay{
+  background-color:transparent!important;
+  border-color:transparent!important;
+  box-shadow:none!important;
+}
+
+/* Forms and neutral buttons stay quiet. */
+select[title="정렬 바꾸기"],select,input,textarea,.form-control,.dropdown-toggle{
+  background-color:#ffffff!important;
+  color:var(--kt-ink)!important;
+  border-color:rgba(25,25,25,.16)!important;
+  box-shadow:none!important;
+}
+button,.btn,input[type="button"],input[type="submit"],.btn-primary,.btn-brand,
+.yg-admin-card button,.yg-login-page button,.yg-cart-actions button,.yg-cart-order,.yg-cart-continue,
+.yg-fab-btn,button.yg-fab-btn{
+  background-color:#ffffff!important;
+  color:var(--kt-ink)!important;
+  -webkit-text-fill-color:var(--kt-ink)!important;
+  border-color:rgba(25,25,25,.16)!important;
+  box-shadow:none!important;
+}
+button:hover,.btn:hover,input[type="button"]:hover,input[type="submit"]:hover,.yg-cart-order:hover,
+.yg-fab-btn:hover{
+  background-color:#fffbe6!important;
+  color:var(--kt-brown)!important;
+  -webkit-text-fill-color:var(--kt-brown)!important;
+  box-shadow:none!important;
+}
+.btn.right,.yg-cart-modal-move,.yg-admin-preview,
+.shop-content .btn.buy,.shop-content .btn._btn_buy,
+.yg-cart-order{
+  background-color:var(--kt-yellow)!important;
+  color:var(--kt-brown)!important;
+  -webkit-text-fill-color:var(--kt-brown)!important;
+  border-color:rgba(60,30,30,.18)!important;
+  box-shadow:none!important;
+}
+.shop-content ._btn_cart,.shop-content .btn._btn_cart,
+.yg-cart-continue{
+  background-color:#3c1e1e!important;
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  border-color:#3c1e1e!important;
+}
+
+/* Boards, FAQ, cart table: subtle Kakao highlight, not full yellow blocks. */
+.widget.board .list-style-card .title-block,
+.acd_row,.acd_item,
+.FAQ h4,main h4{
+  background-color:#ffffff!important;
+  border-color:rgba(25,25,25,.10)!important;
+  box-shadow:none!important;
+}
+.widget.board .list-style-card .title-block:before{content:none!important;}
+.FAQ h4:before,main h4:before{
+  background-color:var(--kt-yellow)!important;
+}
+#yg-toast{
+  background-color:var(--kt-brown)!important;
+  color:var(--kt-yellow)!important;
+}
+#shop_detail_add_cart_alarm .modal-content{border-top-color:var(--kt-yellow)!important;}
+#cart_add_result_msg:before{content:""!important;}
+.w-actionbar,.w-bottom-nav,.yg-admin-float{
+  background-color:#ffffff!important;
+  color:var(--kt-ink)!important;
+  border-color:rgba(25,25,25,.12)!important;
+  box-shadow:0 -2px 10px rgba(0,0,0,.045)!important;
+}
+.w-bottom-nav a,.w-bottom-nav .item{color:var(--kt-ink)!important;}
+.shop-table,table,.yg-cart-table{
+  border-color:rgba(25,25,25,.12)!important;
+  background-color:#ffffff!important;
+}
+th,.yg-cart-table thead th{
+  background-color:#fffdf0!important;
+  color:var(--kt-brown)!important;
+}
+td{border-color:rgba(25,25,25,.10)!important;}
+.yg-qty-control{background-color:#ffffff!important;border-color:rgba(25,25,25,.14)!important;}
+
+/* Footer: premium dark footer with restrained Kakao accent. */
+#doz_footer_wrap,#doz_footer,footer{
+  background-color:var(--kt-footer)!important;
+  color:#f5f5f5!important;
+}
+#doz_footer a,footer a{color:#f5f5f5!important;}
+#doz_footer .active,footer .active,
+#doz_footer i,footer i{color:var(--kt-yellow)!important;}
+
+/* Remove any inline yellow highlighter bars in product price areas. */
+.shop-item [style*="background-color: rgb(254, 229, 0)"],
+.shop-item [style*="background:#fee500"],
+.shop-item [style*="background: #fee500"]{
+  background-color:transparent!important;
+}

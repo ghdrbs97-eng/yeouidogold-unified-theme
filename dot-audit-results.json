@@ -1,0 +1,940 @@
+[
+  {
+    "vp": "pc",
+    "name": "home",
+    "path": "/index.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 340.86,
+      "y": 12,
+      "w": 147.34,
+      "h": 40
+    },
+    "span": {
+      "x": 355.86,
+      "y": 23.2,
+      "w": 106.89,
+      "h": 17
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "pc",
+    "name": "gold",
+    "path": "/gold.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 340.86,
+      "y": 12,
+      "w": 147.34,
+      "h": 40
+    },
+    "span": {
+      "x": 355.86,
+      "y": 23.2,
+      "w": 106.89,
+      "h": 17
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "pc",
+    "name": "goldcoin",
+    "path": "/goldcoin.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 340.86,
+      "y": 12,
+      "w": 147.34,
+      "h": 40
+    },
+    "span": {
+      "x": 355.86,
+      "y": 23.2,
+      "w": 106.89,
+      "h": 17
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "pc",
+    "name": "silver",
+    "path": "/silver.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 340.86,
+      "y": 12,
+      "w": 147.34,
+      "h": 40
+    },
+    "span": {
+      "x": 355.86,
+      "y": 23.2,
+      "w": 106.89,
+      "h": 17
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "pc",
+    "name": "platinum",
+    "path": "/PLATINUMPALLADIUM.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 340.86,
+      "y": 12,
+      "w": 147.34,
+      "h": 40
+    },
+    "span": {
+      "x": 355.86,
+      "y": 23.2,
+      "w": 106.89,
+      "h": 17
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "pc",
+    "name": "hotdeal",
+    "path": "/hotdeal.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 340.86,
+      "y": 12,
+      "w": 147.34,
+      "h": 40
+    },
+    "span": {
+      "x": 355.86,
+      "y": 23.2,
+      "w": 106.89,
+      "h": 17
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "pc",
+    "name": "notice",
+    "path": "/47.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 340.86,
+      "y": 12,
+      "w": 147.34,
+      "h": 40
+    },
+    "span": {
+      "x": 355.86,
+      "y": 23.2,
+      "w": 106.89,
+      "h": 17
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "pc",
+    "name": "review",
+    "path": "/review.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 340.86,
+      "y": 12,
+      "w": 147.34,
+      "h": 40
+    },
+    "span": {
+      "x": 355.86,
+      "y": 23.2,
+      "w": 106.89,
+      "h": 17
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "pc",
+    "name": "contact",
+    "path": "/contact.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 340.86,
+      "y": -247,
+      "w": 147.34,
+      "h": 40
+    },
+    "span": {
+      "x": 355.86,
+      "y": -235.8,
+      "w": 106.89,
+      "h": 17
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "pc",
+    "name": "login",
+    "path": "/login.html",
+    "found": true,
+    "candidates": 1,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 340.86,
+      "y": 12,
+      "w": 147.34,
+      "h": 40
+    },
+    "span": {
+      "x": 355.86,
+      "y": 23.2,
+      "w": 106.89,
+      "h": 17
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "pc",
+    "name": "join-choice",
+    "path": "/site_join_pattern_choice.html?back_url=Lw%3D%3D",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 340.86,
+      "y": 12,
+      "w": 147.34,
+      "h": 40
+    },
+    "span": {
+      "x": 355.86,
+      "y": 23.2,
+      "w": 106.89,
+      "h": 17
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "pc",
+    "name": "join-agree",
+    "path": "/site_join_agree.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 340.86,
+      "y": 12,
+      "w": 147.34,
+      "h": 40
+    },
+    "span": {
+      "x": 355.86,
+      "y": 23.2,
+      "w": 106.89,
+      "h": 17
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "pc",
+    "name": "join-form",
+    "path": "/site_join_form.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 340.86,
+      "y": 12,
+      "w": 147.34,
+      "h": 40
+    },
+    "span": {
+      "x": 355.86,
+      "y": 23.2,
+      "w": 106.89,
+      "h": 17
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "pc",
+    "name": "cart",
+    "path": "/shop_cart.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 340.86,
+      "y": 12,
+      "w": 147.34,
+      "h": 40
+    },
+    "span": {
+      "x": 355.86,
+      "y": 23.2,
+      "w": 106.89,
+      "h": 17
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "pc",
+    "name": "search",
+    "path": "/search.html?keyword=골드",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 340.86,
+      "y": 12,
+      "w": 147.34,
+      "h": 40
+    },
+    "span": {
+      "x": 355.86,
+      "y": 23.2,
+      "w": 106.89,
+      "h": 17
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "pc",
+    "name": "product",
+    "path": "/shop_view/185.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "../hotdeal.html",
+    "link": {
+      "x": 340.86,
+      "y": 12,
+      "w": 147.34,
+      "h": 40
+    },
+    "span": {
+      "x": 355.86,
+      "y": 23.2,
+      "w": 106.89,
+      "h": 17
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "mobile",
+    "name": "home",
+    "path": "/index.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 164,
+      "y": 49,
+      "w": 88,
+      "h": 36
+    },
+    "span": {
+      "x": 167,
+      "y": 59,
+      "w": 76,
+      "h": 15
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "mobile",
+    "name": "gold",
+    "path": "/gold.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 164,
+      "y": 49,
+      "w": 88,
+      "h": 36
+    },
+    "span": {
+      "x": 167,
+      "y": 59,
+      "w": 76,
+      "h": 15
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "mobile",
+    "name": "goldcoin",
+    "path": "/goldcoin.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 164,
+      "y": 49,
+      "w": 88,
+      "h": 36
+    },
+    "span": {
+      "x": 167,
+      "y": 59,
+      "w": 76,
+      "h": 15
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "mobile",
+    "name": "silver",
+    "path": "/silver.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 164,
+      "y": 49,
+      "w": 88,
+      "h": 36
+    },
+    "span": {
+      "x": 167,
+      "y": 59,
+      "w": 76,
+      "h": 15
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "mobile",
+    "name": "platinum",
+    "path": "/PLATINUMPALLADIUM.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 164,
+      "y": 49,
+      "w": 88,
+      "h": 36
+    },
+    "span": {
+      "x": 167,
+      "y": 59,
+      "w": 76,
+      "h": 15
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "mobile",
+    "name": "hotdeal",
+    "path": "/hotdeal.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 164,
+      "y": 49,
+      "w": 88,
+      "h": 36
+    },
+    "span": {
+      "x": 167,
+      "y": 59,
+      "w": 76,
+      "h": 15
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "mobile",
+    "name": "notice",
+    "path": "/47.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 164,
+      "y": 49,
+      "w": 88,
+      "h": 36
+    },
+    "span": {
+      "x": 167,
+      "y": 59,
+      "w": 76,
+      "h": 15
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "mobile",
+    "name": "review",
+    "path": "/review.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 164,
+      "y": 49,
+      "w": 88,
+      "h": 36
+    },
+    "span": {
+      "x": 167,
+      "y": 59,
+      "w": 76,
+      "h": 15
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "mobile",
+    "name": "contact",
+    "path": "/contact.html",
+    "found": true,
+    "candidates": 2,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 95,
+      "y": -141,
+      "w": 88,
+      "h": 36
+    },
+    "span": {
+      "x": 98,
+      "y": -131,
+      "w": 76,
+      "h": 15
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "mobile",
+    "name": "login",
+    "path": "/login.html",
+    "found": false,
+    "candidates": 0,
+    "overflow": 0
+  },
+  {
+    "vp": "mobile",
+    "name": "join-choice",
+    "path": "/site_join_pattern_choice.html?back_url=Lw%3D%3D",
+    "found": true,
+    "candidates": 1,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 15,
+      "y": 350.39,
+      "w": 144,
+      "h": 30.8
+    },
+    "span": {
+      "x": 15,
+      "y": 357.39,
+      "w": 85,
+      "h": 16
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "mobile",
+    "name": "join-agree",
+    "path": "/site_join_agree.html",
+    "found": true,
+    "candidates": 1,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 15,
+      "y": 1337.39,
+      "w": 144,
+      "h": 30.8
+    },
+    "span": {
+      "x": 15,
+      "y": 1344.39,
+      "w": 85,
+      "h": 16
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "mobile",
+    "name": "join-form",
+    "path": "/site_join_form.html",
+    "found": true,
+    "candidates": 1,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 15,
+      "y": 935.34,
+      "w": 144,
+      "h": 30.8
+    },
+    "span": {
+      "x": 15,
+      "y": 942.34,
+      "w": 85,
+      "h": 16
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "mobile",
+    "name": "cart",
+    "path": "/shop_cart.html",
+    "found": true,
+    "candidates": 1,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 15,
+      "y": 719.78,
+      "w": 144,
+      "h": 30.8
+    },
+    "span": {
+      "x": 15,
+      "y": 726.78,
+      "w": 85,
+      "h": 16
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "mobile",
+    "name": "search",
+    "path": "/search.html?keyword=골드",
+    "found": true,
+    "candidates": 1,
+    "overflow": 0,
+    "href": "hotdeal.html",
+    "link": {
+      "x": 15,
+      "y": 4834.95,
+      "w": 144,
+      "h": 30.8
+    },
+    "span": {
+      "x": 15,
+      "y": 4841.95,
+      "w": 85,
+      "h": 16
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  },
+  {
+    "vp": "mobile",
+    "name": "product",
+    "path": "/shop_view/185.html",
+    "found": true,
+    "candidates": 1,
+    "overflow": 0,
+    "href": "../hotdeal.html",
+    "link": {
+      "x": 15,
+      "y": 2738.95,
+      "w": 144,
+      "h": 30.8
+    },
+    "span": {
+      "x": 15,
+      "y": 2745.95,
+      "w": 85,
+      "h": 16
+    },
+    "after": {
+      "content": "\"\"",
+      "width": "4px",
+      "height": "4px",
+      "marginLeft": "2px",
+      "transform": "matrix(1, 0, 0, 1, 0, -8)",
+      "background": "rgb(250, 85, 0)",
+      "verticalAlign": "baseline"
+    }
+  }
+]

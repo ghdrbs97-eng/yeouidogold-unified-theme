@@ -1,0 +1,120 @@
+START pc home
+ origin loaded pc home
+ local loaded pc home
+pc home 12.507% overflow local=0
+START pc gold
+ origin loaded pc gold
+ local loaded pc gold
+pc gold 0.289% overflow local=0
+START pc goldcoin
+ origin loaded pc goldcoin
+ local loaded pc goldcoin
+pc goldcoin 0.3% overflow local=0
+START pc silver
+ origin loaded pc silver
+ local loaded pc silver
+pc silver 14.036% overflow local=0
+START pc platinum
+ origin loaded pc platinum
+ local loaded pc platinum
+pc platinum 0% overflow local=0
+START pc hotdeal
+ origin loaded pc hotdeal
+ local loaded pc hotdeal
+pc hotdeal 0% overflow local=0
+START pc notice
+ origin loaded pc notice
+ local loaded pc notice
+pc notice 0.022% overflow local=0
+START pc review
+ origin loaded pc review
+ local loaded pc review
+pc review 33.218% overflow local=0
+START pc contact
+ origin loaded pc contact
+ local loaded pc contact
+pc contact 21.379% overflow local=0
+START pc login
+ origin loaded pc login
+ local loaded pc login
+pc login 0.639% overflow local=0
+START pc join-choice
+ origin loaded pc join-choice
+ local loaded pc join-choice
+pc join-choice 0.767% overflow local=0
+START pc join-agree
+ origin loaded pc join-agree
+ local loaded pc join-agree
+pc join-agree 3.212% overflow local=0
+START pc join-form
+ origin loaded pc join-form
+ local loaded pc join-form
+pc join-form 35.163% overflow local=0
+START pc cart
+ origin loaded pc cart
+ local loaded pc cart
+pc cart 27.549% overflow local=0
+START pc search
+ origin loaded pc search
+ local loaded pc search
+pc search 24.868% overflow local=0
+START mobile home
+ origin loaded mobile home
+ local loaded mobile home
+mobile home 10.025% overflow local=0
+START mobile gold
+ origin loaded mobile gold
+ local loaded mobile gold
+mobile gold 0.927% overflow local=0
+START mobile goldcoin
+ origin loaded mobile goldcoin
+ local loaded mobile goldcoin
+mobile goldcoin 0.927% overflow local=0
+START mobile silver
+ origin loaded mobile silver
+ local loaded mobile silver
+mobile silver 13.887% overflow local=0
+START mobile platinum
+ origin loaded mobile platinum
+ local loaded mobile platinum
+mobile platinum 0.108% overflow local=0
+START mobile hotdeal
+ origin loaded mobile hotdeal
+ local loaded mobile hotdeal
+mobile hotdeal 0% overflow local=0
+START mobile notice
+ origin loaded mobile notice
+ local loaded mobile notice
+mobile notice 0.059% overflow local=0
+START mobile review
+ origin loaded mobile review
+ local loaded mobile review
+mobile review 26.009% overflow local=0
+START mobile contact
+ origin loaded mobile contact
+ local loaded mobile contact
+mobile contact 22.36% overflow local=0
+START mobile login
+ origin loaded mobile login
+ local loaded mobile login
+mobile login 20.993% overflow local=0
+START mobile join-choice
+ origin loaded mobile join-choice
+ local loaded mobile join-choice
+mobile join-choice 18.232% overflow local=0
+START mobile join-agree
+ origin loaded mobile join-agree
+ local loaded mobile join-agree
+mobile join-agree 9.849% overflow local=0
+START mobile join-form
+ origin loaded mobile join-form
+ local loaded mobile join-form
+mobile join-form 13.334% overflow local=0
+START mobile cart
+ origin loaded mobile cart
+ local loaded mobile cart
+mobile cart 28.737% overflow local=0
+START mobile search
+ origin loaded mobile search
+ local loaded mobile search
+mobile search 29.64% overflow local=0

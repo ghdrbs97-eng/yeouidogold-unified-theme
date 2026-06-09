@@ -1,0 +1,1 @@
+window.YT=window.YT||{}; window.onYouTubeIframeAPIReady&&window.onYouTubeIframeAPIReady();

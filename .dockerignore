@@ -1,0 +1,11 @@
+# Keep deployment context small and avoid shipping local/runtime artifacts.
+.git
+__pycache__
+.pytest_cache
+*.pyc
+*.log
+wget.log
+wget2.log
+*.zip
+node_modules
+.DS_Store
