@@ -970,9 +970,29 @@ html[data-yg-theme="kakao"] body::before{
   z-index:999!important;
   pointer-events:none!important;
 }
+html[data-yg-theme="kakao"] body{
+  background-image:linear-gradient(to bottom,#fee500 0,#fee500 64px,#ffffff 64px,#ffffff 100%)!important;
+  background-repeat:no-repeat!important;
+  background-attachment:scroll!important;
+}
 html[data-yg-theme="kakao"] body #doz_header_wrap{
   position:relative!important;
   z-index:1000!important;
+  width:100%!important;
+  max-width:none!important;
+  min-width:0!important;
+  margin-left:0!important;
+  margin-right:0!important;
+  left:0!important;
+  right:auto!important;
+  background:#fee500!important;
+  background-color:#fee500!important;
+}
+html[data-yg-theme="kakao"] body #doz_header{
+  width:100%!important;
+  max-width:none!important;
+  background:#fee500!important;
+  background-color:#fee500!important;
 }
 
 /* Force top nav hover/open state after Imweb header classes */
