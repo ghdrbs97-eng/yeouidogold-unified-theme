@@ -534,6 +534,77 @@ body[data-yg-theme="kakao"] #yg-theme-switcher select{
   color:var(--kt-brown)!important;
 }
 
+/* Header specificity fix: 원본 Imweb 헤더의 네이비 인라인/고우선순위 배경을 카톡 브라운 톤으로만 보정 */
+html[data-yg-theme="kakao"] body #doz_header_wrap,
+html[data-yg-theme="kakao"] body #doz_header,
+html[data-yg-theme="kakao"] body #doz_header .new_org_header,
+html[data-yg-theme="kakao"] body #doz_header #inline_header_normal,
+html[data-yg-theme="kakao"] body #doz_header .inline-section-wrap,
+html[data-yg-theme="kakao"] body #doz_header .inline-section,
+html[data-yg-theme="kakao"] body #doz_header .inline-inside,
+html[data-yg-theme="kakao"] body #doz_header .inline-row,
+html[data-yg-theme="kakao"] body #doz_header .inline-col,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a,
+html[data-yg-theme="kakao"] body #doz_header .login_btn,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a,
+html[data-yg-theme="kakao"] body #doz_header .widget,
+html[data-yg-theme="kakao"] body #doz_header ._widget_data,
+html[data-yg-theme="kakao"] body #doz_header [style*="background"]{
+  background:#2b1f1d!important;
+  background-color:#2b1f1d!important;
+}
+html[data-yg-theme="kakao"] body #doz_header_wrap{
+  border-top-color:var(--kt-yellow)!important;
+  border-bottom-color:rgba(254,229,0,.24)!important;
+  box-shadow:0 2px 10px rgba(43,31,29,.16)!important;
+}
+html[data-yg-theme="kakao"] body #doz_header a,
+html[data-yg-theme="kakao"] body #doz_header span,
+html[data-yg-theme="kakao"] body #doz_header i,
+html[data-yg-theme="kakao"] body #doz_header .text,
+html[data-yg-theme="kakao"] body #doz_header .icon_class,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a{
+  color:#fff8d6!important;
+  -webkit-text-fill-color:#fff8d6!important;
+  text-shadow:none!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a:hover,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a:hover,
+html[data-yg-theme="kakao"] body #doz_header a:hover{
+  background-color:rgba(254,229,0,.14)!important;
+  color:var(--kt-yellow)!important;
+  -webkit-text-fill-color:var(--kt-yellow)!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li.active>a,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a.active{
+  background-color:rgba(254,229,0,.18)!important;
+  color:var(--kt-yellow)!important;
+  -webkit-text-fill-color:var(--kt-yellow)!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a:after,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a span:after,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-toggle:after{
+  border-color:var(--kt-yellow)!important;
+  background-color:var(--kt-yellow)!important;
+}
+html[data-yg-theme="kakao"] body #doz_header img{
+  filter:none!important;
+  opacity:1!important;
+  mix-blend-mode:normal!important;
+}
+html[data-yg-theme="kakao"] body #yg-theme-switcher{
+  background:rgba(43,31,29,.94)!important;
+  border-color:rgba(254,229,0,.48)!important;
+}
+html[data-yg-theme="kakao"] body #yg-theme-switcher label,
+html[data-yg-theme="kakao"] body #yg-theme-switcher select{
+  color:var(--kt-yellow)!important;
+  -webkit-text-fill-color:var(--kt-yellow)!important;
+}
+
 /*
   Header correction: the logo asset is white, so a white Kakao header made the menu look broken.
   Keep the original premium dark header and use Kakao yellow only as a restrained accent.
