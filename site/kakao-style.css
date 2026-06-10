@@ -1196,3 +1196,37 @@ html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li
   visibility:visible!important;
   opacity:1!important;
 }
+
+/* User fix 5: submenu row hover must invert text color visibly */
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li:hover,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li:hover>a,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li:hover>a span,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li:hover .plain_name,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu a:hover,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu a:hover span,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu a:hover .plain_name{
+  background:#191919!important;
+  background-color:#191919!important;
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+  font-weight:700!important;
+  opacity:1!important;
+  visibility:visible!important;
+  text-shadow:none!important;
+}
+
+/* User fix 6: highest-specificity visible text for hovered submenu row */
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li>.dropdown-menu>li.dropdown-submenu:hover,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li>.dropdown-menu>li.dropdown-submenu:hover>a,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li>.dropdown-menu>li.dropdown-submenu:hover>a._fade_link,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li>.dropdown-menu>li.dropdown-submenu:hover>a>span,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li>.dropdown-menu>li.dropdown-submenu:hover>a>span.plain_name{
+  background:#191919!important;
+  background-color:#191919!important;
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+  font-weight:800!important;
+  opacity:1!important;
+  visibility:visible!important;
+  text-shadow:none!important;
+}
