@@ -1246,3 +1246,45 @@ html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li
 html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(>.dropdown-menu:hover)>a{
   border-color:transparent!important;
 }
+
+/* User fix 8: keep parent top menu highlighted while hovering its submenu */
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(>.dropdown-menu:hover),
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(>.dropdown-menu:hover)>a{
+  background:#191919!important;
+  background-color:#191919!important;
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+  box-shadow:#191919 0 -12px 0 0, #191919 0 12px 0 0!important;
+  text-shadow:none!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(>.dropdown-menu:hover)>a span,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(>.dropdown-menu:hover)>a .plain_name{
+  background:transparent!important;
+  background-color:transparent!important;
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+  text-shadow:none!important;
+}
+
+/* User fix 9: force parent top label yellow while any child submenu link is hovered */
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(.dropdown-menu a:hover)>a,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(.dropdown-menu a:hover)>a.fixed_transform,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(.dropdown-menu a:hover)>a.dropdown-toggle,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(.dropdown-menu a:hover)>a._header_dropdown,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(.dropdown-menu a:hover)>a span,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(.dropdown-menu a:hover)>a span.plain_name,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(.dropdown-menu a:hover)>a .plain_name{
+  background:#191919!important;
+  background-color:#191919!important;
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+  font-weight:700!important;
+  box-shadow:#191919 0 -12px 0 0, #191919 0 12px 0 0!important;
+  text-shadow:none!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(.dropdown-menu a:hover)>a span,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(.dropdown-menu a:hover)>a .plain_name{
+  background:transparent!important;
+  background-color:transparent!important;
+  box-shadow:none!important;
+}
