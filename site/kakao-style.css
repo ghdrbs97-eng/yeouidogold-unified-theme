@@ -533,3 +533,120 @@ body[data-yg-theme="kakao"] #yg-theme-switcher label{
 body[data-yg-theme="kakao"] #yg-theme-switcher select{
   color:var(--kt-brown)!important;
 }
+
+/*
+  Header correction: the logo asset is white, so a white Kakao header made the menu look broken.
+  Keep the original premium dark header and use Kakao yellow only as a restrained accent.
+*/
+body[data-yg-theme="kakao"] #doz_header_wrap,
+body[data-yg-theme="kakao"] #doz_header,
+body[data-yg-theme="kakao"] #doz_header .new_org_header,
+body[data-yg-theme="kakao"] #doz_header #inline_header_normal,
+body[data-yg-theme="kakao"] #doz_header .inline-section-wrap,
+body[data-yg-theme="kakao"] #doz_header .inline-inside,
+body[data-yg-theme="kakao"] #doz_header .inline-row,
+body[data-yg-theme="kakao"] #doz_header .inline-col,
+body[data-yg-theme="kakao"] #doz_header .widget,
+body[data-yg-theme="kakao"] #doz_header ._widget_data,
+body[data-yg-theme="kakao"] #doz_header .btn-wrap,
+body[data-yg-theme="kakao"] #doz_header .login_btn,
+body[data-yg-theme="kakao"] #doz_header .viewport-nav,
+body[data-yg-theme="kakao"] #doz_header .navbar-nav,
+body[data-yg-theme="kakao"] #doz_header [class*="inline-section"],
+body[data-yg-theme="kakao"] #doz_header [class*="new_org_header"]{
+  background:#09152a!important;
+  background-color:#09152a!important;
+  color:#ffffff!important;
+}
+body[data-yg-theme="kakao"] #doz_header_wrap{
+  border-top-color:var(--kt-yellow)!important;
+  border-bottom-color:rgba(254,229,0,.20)!important;
+  box-shadow:0 2px 10px rgba(0,0,0,.18)!important;
+}
+body[data-yg-theme="kakao"] #doz_header a,
+body[data-yg-theme="kakao"] #doz_header span,
+body[data-yg-theme="kakao"] #doz_header i,
+body[data-yg-theme="kakao"] #doz_header .text,
+body[data-yg-theme="kakao"] #doz_header .icon_class,
+body[data-yg-theme="kakao"] #doz_header_wrap a,
+body[data-yg-theme="kakao"] #doz_header .viewport-nav>li>a,
+body[data-yg-theme="kakao"] #doz_header .login_btn a,
+body[data-yg-theme="kakao"] #doz_header .login_btn a .text{
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  text-shadow:none!important;
+}
+body[data-yg-theme="kakao"] #doz_header .navbar-nav>li>a,
+body[data-yg-theme="kakao"] #doz_header .viewport-nav .navbar-nav>li>a,
+body[data-yg-theme="kakao"] #doz_header .viewport-nav>li>a,
+body[data-yg-theme="kakao"] #doz_header a.dropdown-toggle,
+body[data-yg-theme="kakao"] #doz_header a._header_dropdown,
+body[data-yg-theme="kakao"] #doz_header .login_btn a{
+  background:#09152a!important;
+  background-color:#09152a!important;
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+}
+body[data-yg-theme="kakao"] #doz_header .navbar-nav>li>a:hover,
+body[data-yg-theme="kakao"] #doz_header .viewport-nav .navbar-nav>li>a:hover,
+body[data-yg-theme="kakao"] #doz_header .viewport-nav>li>a:hover,
+body[data-yg-theme="kakao"] #doz_header a.dropdown-toggle:hover,
+body[data-yg-theme="kakao"] #doz_header a._header_dropdown:hover,
+body[data-yg-theme="kakao"] #doz_header .login_btn a:hover,
+body[data-yg-theme="kakao"] #doz_header_wrap a:hover{
+  background-color:rgba(254,229,0,.14)!important;
+  color:var(--kt-yellow)!important;
+  -webkit-text-fill-color:var(--kt-yellow)!important;
+}
+body[data-yg-theme="kakao"] #doz_header .viewport-nav>li.active>a,
+body[data-yg-theme="kakao"] #doz_header .viewport-nav>li>a.active{
+  background-color:rgba(254,229,0,.18)!important;
+  color:var(--kt-yellow)!important;
+  -webkit-text-fill-color:var(--kt-yellow)!important;
+}
+body[data-yg-theme="kakao"] #doz_header a.btn_custom,
+body[data-yg-theme="kakao"] #doz_header a.btn_custom.btn_text,
+body[data-yg-theme="kakao"] #doz_header .btn_custom,
+body[data-yg-theme="kakao"] #doz_header .btn_custom .text,
+body[data-yg-theme="kakao"] #doz_header .login_btn a.btn_custom,
+body[data-yg-theme="kakao"] #doz_header .login_btn a.btn_custom .text{
+  background-color:transparent!important;
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  border-color:rgba(255,255,255,.22)!important;
+  box-shadow:none!important;
+}
+body[data-yg-theme="kakao"] #doz_header a.btn_custom.btn_text:hover,
+body[data-yg-theme="kakao"] #doz_header .login_btn a.btn_custom:hover,
+body[data-yg-theme="kakao"] #doz_header .login_btn a.btn_custom:hover .text{
+  background-color:rgba(254,229,0,.14)!important;
+  color:var(--kt-yellow)!important;
+  -webkit-text-fill-color:var(--kt-yellow)!important;
+}
+body[data-yg-theme="kakao"] #yg-theme-switcher{
+  top:72px!important;
+  right:14px!important;
+  background:rgba(9,21,42,.92)!important;
+  border-color:rgba(254,229,0,.38)!important;
+  box-shadow:0 4px 14px rgba(0,0,0,.18)!important;
+}
+body[data-yg-theme="kakao"] #yg-theme-switcher label,
+body[data-yg-theme="kakao"] #yg-theme-switcher select{
+  background:transparent!important;
+  border:0!important;
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  box-shadow:none!important;
+}
+body[data-yg-theme="kakao"] #yg-theme-switcher select{
+  appearance:none!important;
+  -webkit-appearance:none!important;
+  background-image:linear-gradient(45deg,transparent 50%,var(--kt-yellow) 50%),linear-gradient(135deg,var(--kt-yellow) 50%,transparent 50%)!important;
+  background-position:calc(100% - 10px) 50%,calc(100% - 5px) 50%!important;
+  background-size:5px 5px,5px 5px!important;
+  background-repeat:no-repeat!important;
+  padding-right:18px!important;
+}
+body[data-yg-theme="kakao"] #yg-theme-switcher select option{
+  color:#111111!important;
+}
