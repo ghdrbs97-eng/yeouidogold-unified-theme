@@ -988,7 +988,13 @@ html[data-yg-theme="kakao"] body #doz_header_wrap{
   background:#fee500!important;
   background-color:#fee500!important;
 }
-html[data-yg-theme="kakao"] body #doz_header{
+html[data-yg-theme="kakao"] body #doz_header,
+html[data-yg-theme="kakao"] body #inline_header_normal,
+html[data-yg-theme="kakao"] body #doz_header .new_org_header,
+html[data-yg-theme="kakao"] body #doz_header .inline-section-wrap,
+html[data-yg-theme="kakao"] body #doz_header .section_bg_color,
+html[data-yg-theme="kakao"] body #doz_header ._section_bg_color,
+html[data-yg-theme="kakao"] body #doz_header [class*="section_bg_color"]{
   width:100%!important;
   max-width:none!important;
   background:#fee500!important;
