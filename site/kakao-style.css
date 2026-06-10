@@ -829,12 +829,20 @@ html[data-yg-theme="kakao"] body #doz_header .inline-section-wrap,
 html[data-yg-theme="kakao"] body #doz_header .inline-section,
 html[data-yg-theme="kakao"] body #doz_header .inline-inside,
 html[data-yg-theme="kakao"] body #doz_header .inline-row,
+html[data-yg-theme="kakao"] body #doz_header .inline-col-group,
 html[data-yg-theme="kakao"] body #doz_header .inline-col,
+html[data-yg-theme="kakao"] body #doz_header .inline-widget,
 html[data-yg-theme="kakao"] body #doz_header .viewport-nav,
 html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li,
 html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a,
 html[data-yg-theme="kakao"] body #doz_header .login_btn,
+html[data-yg-theme="kakao"] body #doz_header .login_btn .btn-wrap,
+html[data-yg-theme="kakao"] body #doz_header .login_btn .login_btn_item,
 html[data-yg-theme="kakao"] body #doz_header .login_btn a,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a.btn_custom,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a.btn_custom .text,
+html[data-yg-theme="kakao"] body #doz_header .btn_custom,
+html[data-yg-theme="kakao"] body #doz_header .btn_custom .text,
 html[data-yg-theme="kakao"] body #doz_header .widget,
 html[data-yg-theme="kakao"] body #doz_header ._widget_data{
   background:#fee500!important;
@@ -851,8 +859,13 @@ html[data-yg-theme="kakao"] body #doz_header i,
 html[data-yg-theme="kakao"] body #doz_header .text,
 html[data-yg-theme="kakao"] body #doz_header .icon_class,
 html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a,
+html[data-yg-theme="kakao"] body #doz_header .login_btn,
+html[data-yg-theme="kakao"] body #doz_header .login_btn .btn-wrap,
+html[data-yg-theme="kakao"] body #doz_header .login_btn .login_btn_item,
 html[data-yg-theme="kakao"] body #doz_header .login_btn a,
-html[data-yg-theme="kakao"] body #doz_header .login_btn a .text{
+html[data-yg-theme="kakao"] body #doz_header .login_btn a .text,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a.btn_custom,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a.btn_custom .text{
   color:#191919!important;
   -webkit-text-fill-color:#191919!important;
   text-shadow:none!important;
@@ -862,7 +875,12 @@ html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li:hover>a,
 html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a:hover,
 html[data-yg-theme="kakao"] body #doz_header a.dropdown-toggle:hover,
 html[data-yg-theme="kakao"] body #doz_header a._header_dropdown:hover,
+html[data-yg-theme="kakao"] body #doz_header .login_btn .btn-wrap:hover,
+html[data-yg-theme="kakao"] body #doz_header .login_btn .login_btn_item:hover,
+html[data-yg-theme="kakao"] body #doz_header .login_btn .login_btn_item:hover a,
+html[data-yg-theme="kakao"] body #doz_header .login_btn .login_btn_item:hover .text,
 html[data-yg-theme="kakao"] body #doz_header .login_btn a:hover,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a:hover .text,
 html[data-yg-theme="kakao"] body #doz_header_wrap a:hover{
   background:#191919!important;
   background-color:#191919!important;
