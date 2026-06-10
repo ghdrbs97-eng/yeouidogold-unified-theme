@@ -1041,3 +1041,42 @@ html[data-yg-theme="kakao"] body #doz_header .yg-kakao-nav-hover-text{
   color:#fee500!important;
   -webkit-text-fill-color:#fee500!important;
 }
+
+/* Final full-cell Kakao nav hover: logo stays unchanged, menu cells invert as a whole */
+html[data-yg-theme="kakao"] body #doz_header .inline_widget.logo a:hover,
+html[data-yg-theme="kakao"] body #doz_header .inline_widget.logo:hover,
+html[data-yg-theme="kakao"] body #doz_header .img_box a:hover,
+html[data-yg-theme="kakao"] body #doz_header .img_box:hover,
+html[data-yg-theme="kakao"] body #doz_header .img_box:hover a,
+html[data-yg-theme="kakao"] body #doz_header a:has(img):hover{
+  background:transparent!important;
+  background-color:transparent!important;
+  color:#191919!important;
+  -webkit-text-fill-color:#191919!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-hover,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover{
+  background:#191919!important;
+  background-color:#191919!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-hover>a,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-hover>a.dropdown-toggle,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover>a,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover>a.dropdown-toggle{
+  display:table-cell!important;
+  width:100%!important;
+  height:100%!important;
+  min-height:40px!important;
+  background:#191919!important;
+  background-color:#191919!important;
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+  transition:none!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-hover>a span,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover>a span,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-hover .plain_name,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover .plain_name{
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+}
