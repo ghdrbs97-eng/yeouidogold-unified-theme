@@ -550,8 +550,7 @@ html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a,
 html[data-yg-theme="kakao"] body #doz_header .login_btn,
 html[data-yg-theme="kakao"] body #doz_header .login_btn a,
 html[data-yg-theme="kakao"] body #doz_header .widget,
-html[data-yg-theme="kakao"] body #doz_header ._widget_data,
-html[data-yg-theme="kakao"] body #doz_header [style*="background"]{
+html[data-yg-theme="kakao"] body #doz_header ._widget_data{
   background:#2b1f1d!important;
   background-color:#2b1f1d!important;
 }
@@ -738,8 +737,7 @@ html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a,
 html[data-yg-theme="kakao"] body #doz_header .login_btn,
 html[data-yg-theme="kakao"] body #doz_header .login_btn a,
 html[data-yg-theme="kakao"] body #doz_header .widget,
-html[data-yg-theme="kakao"] body #doz_header ._widget_data,
-html[data-yg-theme="kakao"] body #doz_header [style*="background"]{
+html[data-yg-theme="kakao"] body #doz_header ._widget_data{
   background:#191919!important;
   background-color:#191919!important;
 }
@@ -818,6 +816,147 @@ html[data-yg-theme="kakao"] body #yg-theme-switcher{
 }
 html[data-yg-theme="kakao"] body #yg-theme-switcher label,
 html[data-yg-theme="kakao"] body #yg-theme-switcher select{
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+}
+
+/* 2026-06-10 Kakao nav inversion: 상단바 기본은 드롭다운과 같은 카카오 노랑, hover는 검정 */
+html[data-yg-theme="kakao"] body #doz_header_wrap,
+html[data-yg-theme="kakao"] body #doz_header,
+html[data-yg-theme="kakao"] body #doz_header .new_org_header,
+html[data-yg-theme="kakao"] body #doz_header #inline_header_normal,
+html[data-yg-theme="kakao"] body #doz_header .inline-section-wrap,
+html[data-yg-theme="kakao"] body #doz_header .inline-section,
+html[data-yg-theme="kakao"] body #doz_header .inline-inside,
+html[data-yg-theme="kakao"] body #doz_header .inline-row,
+html[data-yg-theme="kakao"] body #doz_header .inline-col,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a,
+html[data-yg-theme="kakao"] body #doz_header .login_btn,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a,
+html[data-yg-theme="kakao"] body #doz_header .widget,
+html[data-yg-theme="kakao"] body #doz_header ._widget_data{
+  background:#fee500!important;
+  background-color:#fee500!important;
+}
+html[data-yg-theme="kakao"] body #doz_header_wrap{
+  border-top-color:#191919!important;
+  border-bottom-color:rgba(25,25,25,.18)!important;
+  box-shadow:0 2px 10px rgba(25,25,25,.10)!important;
+}
+html[data-yg-theme="kakao"] body #doz_header a,
+html[data-yg-theme="kakao"] body #doz_header span,
+html[data-yg-theme="kakao"] body #doz_header i,
+html[data-yg-theme="kakao"] body #doz_header .text,
+html[data-yg-theme="kakao"] body #doz_header .icon_class,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a .text{
+  color:#191919!important;
+  -webkit-text-fill-color:#191919!important;
+  text-shadow:none!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li:hover,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li:hover>a,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a:hover,
+html[data-yg-theme="kakao"] body #doz_header a.dropdown-toggle:hover,
+html[data-yg-theme="kakao"] body #doz_header a._header_dropdown:hover,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a:hover,
+html[data-yg-theme="kakao"] body #doz_header_wrap a:hover{
+  background:#191919!important;
+  background-color:#191919!important;
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li:hover>a span,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a:hover span,
+html[data-yg-theme="kakao"] body #doz_header a.dropdown-toggle:hover span,
+html[data-yg-theme="kakao"] body #doz_header a._header_dropdown:hover span{
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li.active>a,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a.active{
+  background:#191919!important;
+  background-color:#191919!important;
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu .dropdown-submenu,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu [class*="dropdown"],
+html[data-yg-theme="kakao"] body #doz_header .sub-menu,
+html[data-yg-theme="kakao"] body #doz_header .sub-menu li,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu a,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu a span,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li a,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li span,
+html[data-yg-theme="kakao"] body #doz_header .sub-menu a,
+html[data-yg-theme="kakao"] body #doz_header .sub-menu a span{
+  background:#fee500!important;
+  background-color:#fee500!important;
+  color:#191919!important;
+  -webkit-text-fill-color:#191919!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu a:hover,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li:hover,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li:hover>a,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li:hover>a span,
+html[data-yg-theme="kakao"] body #doz_header .sub-menu a:hover{
+  background:#191919!important;
+  background-color:#191919!important;
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+}
+html[data-yg-theme="kakao"] body #yg-theme-switcher{
+  background:rgba(254,229,0,.96)!important;
+  border-color:rgba(25,25,25,.22)!important;
+}
+html[data-yg-theme="kakao"] body #yg-theme-switcher label,
+html[data-yg-theme="kakao"] body #yg-theme-switcher select{
+  color:#191919!important;
+  -webkit-text-fill-color:#191919!important;
+}
+
+/* Force top nav hover/open state after Imweb header classes */
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.open>a,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.active>a,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover>a,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li>a:hover,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.open>a.dropdown-toggle,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.active>a.dropdown-toggle,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover>a.dropdown-toggle,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li>a.dropdown-toggle:hover{
+  background:#191919!important;
+  background-color:#191919!important;
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.open>a span,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.active>a span,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover>a span,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li>a:hover span{
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+}
+
+/* Final hover class: 기본 노랑 상단바 위에서 hover/focus만 검정으로 반전 */
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li>a.yg-kakao-nav-hover,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li>a.dropdown-toggle.yg-kakao-nav-hover,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a.yg-kakao-nav-hover,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a.yg-kakao-nav-hover,
+html[data-yg-theme="kakao"] body #doz_header a.yg-kakao-nav-hover{
+  background:#191919!important;
+  background-color:#191919!important;
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li>a.yg-kakao-nav-hover span,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a.yg-kakao-nav-hover span,
+html[data-yg-theme="kakao"] body #doz_header a.yg-kakao-nav-hover .yg-kakao-nav-hover-text,
+html[data-yg-theme="kakao"] body #doz_header .yg-kakao-nav-hover-text{
   color:#fee500!important;
   -webkit-text-fill-color:#fee500!important;
 }
