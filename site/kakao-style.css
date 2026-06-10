@@ -1310,3 +1310,108 @@ html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li
 html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-active>.dropdown-menu{
   z-index:10000!important;
 }
+
+/* User fix 11: Kakao utility/search hover icon visibility and stable separators */
+html[data-yg-theme="kakao"] body #doz_header a:hover .icon-magnifier,
+html[data-yg-theme="kakao"] body #doz_header a:hover .icon-magnifier::before,
+html[data-yg-theme="kakao"] body #doz_header .search_btn a:hover i,
+html[data-yg-theme="kakao"] body #doz_header .search_btn a:hover i::before,
+html[data-yg-theme="kakao"] body #doz_header a[href="#"]:hover i.icon-magnifier,
+html[data-yg-theme="kakao"] body #doz_header a[href="#"]:hover i.icon-magnifier::before{
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+  fill:#fee500!important;
+  stroke:#fee500!important;
+  opacity:1!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .login_btn a:hover .icon_class,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a:hover .icon_class i,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a:hover .icon_class i::before,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a.btn_custom:hover .icon_class,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a.btn_custom:hover .icon_class i,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a.btn_custom:hover .icon_class i::before{
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+  fill:#fee500!important;
+  stroke:#fee500!important;
+  opacity:1!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .login_btn .btn-wrap,
+html[data-yg-theme="kakao"] body #doz_header .login_btn .login_btn_item,
+html[data-yg-theme="kakao"] body #doz_header .login_btn .login_btn_item:has(.line),
+html[data-yg-theme="kakao"] body #doz_header .login_btn .login_btn_item:has(.line):hover{
+  background:#fee500!important;
+  background-color:#fee500!important;
+  box-shadow:none!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .login_btn .line,
+html[data-yg-theme="kakao"] body #doz_header .login_btn .line:hover{
+  background:#fff!important;
+  background-color:#fff!important;
+  border-color:#fff!important;
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+  box-shadow:none!important;
+  opacity:1!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .login_btn a:hover{
+  border-left-color:transparent!important;
+  border-right-color:transparent!important;
+}
+
+/* User fix 12: keep utility separators visually isolated from hovered link backgrounds */
+html[data-yg-theme="kakao"] body #doz_header .login_btn .login_btn_item:has(>.line){
+  position:relative!important;
+  z-index:50!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  background:#fee500!important;
+  background-color:#fee500!important;
+  isolation:isolate!important;
+  overflow:visible!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .login_btn .login_btn_item:has(>.line)::before{
+  content:""!important;
+  position:absolute!important;
+  left:-3px!important;
+  right:-3px!important;
+  top:-5px!important;
+  bottom:-5px!important;
+  background:#fee500!important;
+  z-index:-1!important;
+  pointer-events:none!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .login_btn .line{
+  position:relative!important;
+  z-index:60!important;
+  width:1px!important;
+  min-width:1px!important;
+  height:10px!important;
+  background:#fff!important;
+  background-color:#fff!important;
+  border-left:1px solid #fff!important;
+  border-right:0!important;
+  opacity:1!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .login_btn a:hover,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a.btn_custom:hover{
+  box-shadow:none!important;
+  outline:0!important;
+}
+
+/* User fix 13: give utility separators their own yellow breathing room */
+html[data-yg-theme="kakao"] body #doz_header .login_btn .login_btn_item:has(>.line){
+  width:13px!important;
+  min-width:13px!important;
+  max-width:13px!important;
+  padding-left:4px!important;
+  padding-right:4px!important;
+  margin-left:2px!important;
+  margin-right:2px!important;
+  box-sizing:border-box!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .login_btn .login_btn_item:has(>.line)::before{
+  left:-6px!important;
+  right:-6px!important;
+}
