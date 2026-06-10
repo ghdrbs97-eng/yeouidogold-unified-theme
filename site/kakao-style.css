@@ -1080,3 +1080,119 @@ html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li
   color:#fee500!important;
   -webkit-text-fill-color:#fee500!important;
 }
+
+/* User fix: fill the full 64px Kakao header cell on hover and keep dropdown text readable */
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-hover-li,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover{
+  background:#191919!important;
+  background-color:#191919!important;
+  box-shadow:0 -12px 0 0 #191919,0 12px 0 0 #191919!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-hover-li>a,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover>a{
+  background:#191919!important;
+  background-color:#191919!important;
+  box-shadow:0 -12px 0 0 #191919,0 12px 0 0 #191919!important;
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .inline_widget.logo,
+html[data-yg-theme="kakao"] body #doz_header .inline_widget.logo:hover,
+html[data-yg-theme="kakao"] body #doz_header .inline_widget.logo a,
+html[data-yg-theme="kakao"] body #doz_header .inline_widget.logo a:hover,
+html[data-yg-theme="kakao"] body #doz_header .img_box,
+html[data-yg-theme="kakao"] body #doz_header .img_box:hover,
+html[data-yg-theme="kakao"] body #doz_header .img_box a,
+html[data-yg-theme="kakao"] body #doz_header .img_box a:hover,
+html[data-yg-theme="kakao"] body #doz_header a:has(img),
+html[data-yg-theme="kakao"] body #doz_header a:has(img):hover{
+  background:transparent!important;
+  background-color:transparent!important;
+  box-shadow:none!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu a,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu span,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu .plain_name{
+  background:#fee500!important;
+  background-color:#fee500!important;
+  color:#191919!important;
+  -webkit-text-fill-color:#191919!important;
+  text-shadow:none!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li:hover,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li:hover>a,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu a:hover,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu a:hover span{
+  background:#191919!important;
+  background-color:#191919!important;
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+}
+
+/* User fix 2: make Kakao dropdown visible/readable under hovered menu */
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover>.dropdown-menu,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-hover-li>.dropdown-menu,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.open>.dropdown-menu{
+  display:block!important;
+  visibility:visible!important;
+  opacity:1!important;
+  top:52px!important;
+  z-index:10000!important;
+  background:#fee500!important;
+  background-color:#fee500!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover>.dropdown-menu *,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-hover-li>.dropdown-menu *,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.open>.dropdown-menu *{
+  visibility:visible!important;
+  opacity:1!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover>.dropdown-menu a,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover>.dropdown-menu span,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-hover-li>.dropdown-menu a,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-hover-li>.dropdown-menu span,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.open>.dropdown-menu a,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.open>.dropdown-menu span{
+  color:#191919!important;
+  -webkit-text-fill-color:#191919!important;
+  text-shadow:none!important;
+}
+
+/* User fix 3: strengthen Kakao dropdown legibility */
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu a,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu span,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu .plain_name,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover>.dropdown-menu,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover>.dropdown-menu *,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-hover-li>.dropdown-menu,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-hover-li>.dropdown-menu *{
+  color:#000!important;
+  -webkit-text-fill-color:#000!important;
+  font-weight:700!important;
+  text-shadow:none!important;
+  opacity:1!important;
+  visibility:visible!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu{
+  background:#fee500!important;
+  background-color:#fee500!important;
+  border:1px solid rgba(0,0,0,.12)!important;
+}
+
+/* User fix 4: only the hovered/open Kakao top menu may show its dropdown */
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:not(:hover):not(.open):not(.yg-kakao-nav-hover-li)>.dropdown-menu{
+  display:none!important;
+  visibility:hidden!important;
+  opacity:0!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover>.dropdown-menu,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.open>.dropdown-menu,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-hover-li>.dropdown-menu{
+  display:block!important;
+  visibility:visible!important;
+  opacity:1!important;
+}
