@@ -1415,3 +1415,27 @@ html[data-yg-theme="kakao"] body #doz_header .login_btn .login_btn_item:has(>.li
   left:-6px!important;
   right:-6px!important;
 }
+
+/* User fix 14: utility hover should not darken the btn-wrap behind separators */
+html[data-yg-theme="kakao"] body #doz_header .login_btn .btn-wrap,
+html[data-yg-theme="kakao"] body #doz_header .login_btn .btn-wrap:hover,
+html[data-yg-theme="kakao"] body #doz_header .login_btn:hover .btn-wrap,
+html[data-yg-theme="kakao"] body #doz_header .login_btn .btn-wrap:has(a:hover){
+  background:#fee500!important;
+  background-color:#fee500!important;
+  color:#191919!important;
+  -webkit-text-fill-color:#191919!important;
+  box-shadow:none!important;
+  outline:0!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .login_btn .btn-wrap:has(a:hover) .login_btn_item:has(>.line),
+html[data-yg-theme="kakao"] body #doz_header .login_btn .btn-wrap:has(a:hover) .login_btn_item:has(>.line)::before{
+  background:#fee500!important;
+  background-color:#fee500!important;
+  box-shadow:none!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .login_btn .btn-wrap:has(a:hover) .line{
+  background:#fff!important;
+  background-color:#fff!important;
+  border-color:#fff!important;
+}
