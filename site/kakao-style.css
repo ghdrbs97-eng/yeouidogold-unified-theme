@@ -852,6 +852,24 @@ html[data-yg-theme="kakao"] body #doz_header_wrap{
   border-top-color:#191919!important;
   border-bottom-color:rgba(25,25,25,.18)!important;
   box-shadow:0 2px 10px rgba(25,25,25,.10)!important;
+  position:relative!important;
+  z-index:1000!important;
+}
+html[data-yg-theme="kakao"] body #doz_header_wrap::before{
+  content:""!important;
+  position:absolute!important;
+  left:50%!important;
+  top:0!important;
+  bottom:0!important;
+  width:100vw!important;
+  transform:translateX(-50%)!important;
+  background:#fee500!important;
+  pointer-events:none!important;
+  z-index:0!important;
+}
+html[data-yg-theme="kakao"] body #doz_header_wrap>*{
+  position:relative!important;
+  z-index:1!important;
 }
 html[data-yg-theme="kakao"] body #doz_header a,
 html[data-yg-theme="kakao"] body #doz_header span,
