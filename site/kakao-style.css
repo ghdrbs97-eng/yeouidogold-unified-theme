@@ -1439,3 +1439,43 @@ html[data-yg-theme="kakao"] body #doz_header .login_btn .btn-wrap:has(a:hover) .
   background-color:#fff!important;
   border-color:#fff!important;
 }
+
+/* User fix 15: Kakao theme floating inquiry button uses Kakao yellow */
+html[data-yg-theme="kakao"] body .yg-fab-btn,
+html[data-yg-theme="kakao"] body #ygFabBtn{
+  background:#fee500!important;
+  background-color:#fee500!important;
+  color:#191919!important;
+  -webkit-text-fill-color:#191919!important;
+  border-color:rgba(25,25,25,.18)!important;
+  box-shadow:0 10px 24px rgba(0,0,0,.18)!important;
+}
+html[data-yg-theme="kakao"] body .yg-fab-btn .yg-fab-ico,
+html[data-yg-theme="kakao"] body .yg-fab-btn .yg-fab-text,
+html[data-yg-theme="kakao"] body .yg-fab-btn .yg-fab-caret,
+html[data-yg-theme="kakao"] body #ygFabBtn .yg-fab-ico,
+html[data-yg-theme="kakao"] body #ygFabBtn .yg-fab-text,
+html[data-yg-theme="kakao"] body #ygFabBtn .yg-fab-caret{
+  color:#191919!important;
+  -webkit-text-fill-color:#191919!important;
+  fill:#191919!important;
+  opacity:1!important;
+}
+html[data-yg-theme="kakao"] body .yg-fab-btn:hover,
+html[data-yg-theme="kakao"] body #ygFabBtn:hover{
+  background:#191919!important;
+  background-color:#191919!important;
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+  border-color:#191919!important;
+}
+html[data-yg-theme="kakao"] body .yg-fab-btn:hover .yg-fab-ico,
+html[data-yg-theme="kakao"] body .yg-fab-btn:hover .yg-fab-text,
+html[data-yg-theme="kakao"] body .yg-fab-btn:hover .yg-fab-caret,
+html[data-yg-theme="kakao"] body #ygFabBtn:hover .yg-fab-ico,
+html[data-yg-theme="kakao"] body #ygFabBtn:hover .yg-fab-text,
+html[data-yg-theme="kakao"] body #ygFabBtn:hover .yg-fab-caret{
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+  fill:#fee500!important;
+}
