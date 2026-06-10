@@ -1230,3 +1230,19 @@ html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li
   visibility:visible!important;
   text-shadow:none!important;
 }
+
+/* User fix 7: when pointer is inside a dropdown, do not keep the parent top menu highlighted */
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(>.dropdown-menu:hover),
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(>.dropdown-menu:hover)>a,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(>.dropdown-menu:hover)>a span,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(>.dropdown-menu:hover)>a .plain_name{
+  background:#fee500!important;
+  background-color:#fee500!important;
+  color:#191919!important;
+  -webkit-text-fill-color:#191919!important;
+  box-shadow:none!important;
+  text-shadow:none!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li:hover:has(>.dropdown-menu:hover)>a{
+  border-color:transparent!important;
+}
