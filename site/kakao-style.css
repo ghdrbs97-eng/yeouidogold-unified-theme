@@ -721,3 +721,103 @@ body[data-yg-theme="kakao"] #yg-theme-switcher select{
 body[data-yg-theme="kakao"] #yg-theme-switcher select option{
   color:#111111!important;
 }
+
+/* 2026-06-10 Kakao clarity pass: 황토색을 줄이고 카카오톡 블랙/노랑 대비로 정리 */
+html[data-yg-theme="kakao"] body #doz_header_wrap,
+html[data-yg-theme="kakao"] body #doz_header,
+html[data-yg-theme="kakao"] body #doz_header .new_org_header,
+html[data-yg-theme="kakao"] body #doz_header #inline_header_normal,
+html[data-yg-theme="kakao"] body #doz_header .inline-section-wrap,
+html[data-yg-theme="kakao"] body #doz_header .inline-section,
+html[data-yg-theme="kakao"] body #doz_header .inline-inside,
+html[data-yg-theme="kakao"] body #doz_header .inline-row,
+html[data-yg-theme="kakao"] body #doz_header .inline-col,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a,
+html[data-yg-theme="kakao"] body #doz_header .login_btn,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a,
+html[data-yg-theme="kakao"] body #doz_header .widget,
+html[data-yg-theme="kakao"] body #doz_header ._widget_data,
+html[data-yg-theme="kakao"] body #doz_header [style*="background"]{
+  background:#191919!important;
+  background-color:#191919!important;
+}
+html[data-yg-theme="kakao"] body #doz_header_wrap{
+  border-top-color:#fee500!important;
+  border-bottom-color:rgba(254,229,0,.32)!important;
+  box-shadow:0 2px 10px rgba(0,0,0,.16)!important;
+}
+html[data-yg-theme="kakao"] body #doz_header a,
+html[data-yg-theme="kakao"] body #doz_header span,
+html[data-yg-theme="kakao"] body #doz_header i,
+html[data-yg-theme="kakao"] body #doz_header .text,
+html[data-yg-theme="kakao"] body #doz_header .icon_class,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a .text{
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  text-shadow:none!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a:hover,
+html[data-yg-theme="kakao"] body #doz_header a.dropdown-toggle:hover,
+html[data-yg-theme="kakao"] body #doz_header a._header_dropdown:hover,
+html[data-yg-theme="kakao"] body #doz_header .login_btn a:hover,
+html[data-yg-theme="kakao"] body #doz_header_wrap a:hover{
+  background-color:#fee500!important;
+  color:#191919!important;
+  -webkit-text-fill-color:#191919!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li.active>a,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav>li>a.active{
+  background-color:#fee500!important;
+  color:#191919!important;
+  -webkit-text-fill-color:#191919!important;
+}
+
+/* 상단 메뉴 hover 드롭다운: 흰 배경/흰 글자 버그 수정 + 카톡 노랑 메뉴판 느낌 */
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu .dropdown-submenu,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu [class*="dropdown"],
+html[data-yg-theme="kakao"] body #doz_header .sub-menu,
+html[data-yg-theme="kakao"] body #doz_header .sub-menu li{
+  background:#fee500!important;
+  background-color:#fee500!important;
+  color:#191919!important;
+  -webkit-text-fill-color:#191919!important;
+  border-color:rgba(25,25,25,.10)!important;
+  box-shadow:0 10px 24px rgba(0,0,0,.18)!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu a,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu a span,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li a,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li span,
+html[data-yg-theme="kakao"] body #doz_header .sub-menu a,
+html[data-yg-theme="kakao"] body #doz_header .sub-menu a span{
+  background:#fee500!important;
+  background-color:#fee500!important;
+  color:#191919!important;
+  -webkit-text-fill-color:#191919!important;
+  text-shadow:none!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu a:hover,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li:hover,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li:hover>a,
+html[data-yg-theme="kakao"] body #doz_header .dropdown-menu li:hover>a span,
+html[data-yg-theme="kakao"] body #doz_header .sub-menu a:hover{
+  background:#191919!important;
+  background-color:#191919!important;
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+}
+html[data-yg-theme="kakao"] body #yg-theme-switcher{
+  background:rgba(25,25,25,.94)!important;
+  border-color:rgba(254,229,0,.52)!important;
+}
+html[data-yg-theme="kakao"] body #yg-theme-switcher label,
+html[data-yg-theme="kakao"] body #yg-theme-switcher select{
+  color:#fee500!important;
+  -webkit-text-fill-color:#fee500!important;
+}
