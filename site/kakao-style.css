@@ -1288,3 +1288,25 @@ html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li
   background-color:transparent!important;
   box-shadow:none!important;
 }
+
+/* User fix 10: stable submenu hover corridor and cleanup state */
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-hover-li,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-active{
+  position:relative!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-hover-li::after,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-active::after{
+  content:""!important;
+  position:absolute!important;
+  left:0!important;
+  right:0!important;
+  top:40px!important;
+  height:58px!important;
+  background:transparent!important;
+  pointer-events:auto!important;
+  z-index:9998!important;
+}
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-hover-li>.dropdown-menu,
+html[data-yg-theme="kakao"] body #doz_header .viewport-nav.desktop._main_menu>li.yg-kakao-nav-active>.dropdown-menu{
+  z-index:10000!important;
+}
